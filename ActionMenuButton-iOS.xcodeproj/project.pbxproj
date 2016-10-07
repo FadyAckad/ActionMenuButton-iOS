@@ -12,6 +12,7 @@
 		051227501DA802CC00A92CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0512274E1DA802CC00A92CA1 /* Main.storyboard */; };
 		051227521DA802CC00A92CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051227511DA802CC00A92CA1 /* Assets.xcassets */; };
 		051227551DA802CC00A92CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051227531DA802CC00A92CA1 /* LaunchScreen.storyboard */; };
+		051227601DA8037200A92CA1 /* ActionMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512275F1DA8037200A92CA1 /* ActionMenuButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		051227511DA802CC00A92CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		051227541DA802CC00A92CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		051227561DA802CC00A92CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0512275F1DA8037200A92CA1 /* ActionMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionMenuButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		051227491DA802CC00A92CA1 /* ActionMenuButton-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0512275E1DA8037200A92CA1 /* ActionMenuButton */,
 				0512274A1DA802CC00A92CA1 /* AppDelegate.swift */,
 				0512274C1DA802CC00A92CA1 /* ViewController.swift */,
 				0512274E1DA802CC00A92CA1 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				051227561DA802CC00A92CA1 /* Info.plist */,
 			);
 			path = "ActionMenuButton-iOS";
+			sourceTree = "<group>";
+		};
+		0512275E1DA8037200A92CA1 /* ActionMenuButton */ = {
+			isa = PBXGroup;
+			children = (
+				0512275F1DA8037200A92CA1 /* ActionMenuButton.swift */,
+			);
+			path = ActionMenuButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0512274D1DA802CC00A92CA1 /* ViewController.swift in Sources */,
+				051227601DA8037200A92CA1 /* ActionMenuButton.swift in Sources */,
 				0512274B1DA802CC00A92CA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
