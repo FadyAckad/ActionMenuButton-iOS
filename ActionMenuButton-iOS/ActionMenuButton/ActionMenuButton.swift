@@ -155,6 +155,7 @@ public class ActionMenuButton: UIButton {
 	private func animateMenuButtonsToCenter() {
 		UIView.animate(withDuration: animationDuration/2, animations: {
 			for button in self.menuButtons {
+				button.layer.removeAllAnimations()
 				button.transform = CGAffineTransform.identity.scaledBy(x: 0.5, y: 0.5)
 				button.center = self.center
 			}

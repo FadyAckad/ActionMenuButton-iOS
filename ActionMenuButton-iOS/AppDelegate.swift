@@ -3,7 +3,7 @@
 //  ActionMenuButton-iOS
 //
 //  Created by Fady Adel on 10/7/16.
-//  Copyright © 2016 com.fady. All rights reserved.
+//  Copyright © 2016 com.fady All rights reserved.
 //
 
 import UIKit
